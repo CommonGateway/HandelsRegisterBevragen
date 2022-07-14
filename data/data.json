@@ -1,0 +1,1221 @@
+{
+    "openapi": "3.0.0",
+    "collection": "https://raw.githubusercontent.com/VNG-Realisatie/Haal-Centraal-HR-bevragen/develop/specificatie/genereervariant/openapi.yaml",
+    "schemas": {
+        "MaatschappelijkeActiviteit": [
+            {
+                "properties": {
+                    "activiteiten": [
+                        {
+                            "omschrijving": "string",
+                            "sbiActiviteiten": [
+                                {
+                                    "sbiCode": "string",
+                                    "indicatieHoofdactiviteit": true
+                                }
+                            ],
+                            "indicatieExporteert": true,
+                            "indicatieImporteert": true
+                        }
+                    ],
+                    "kvknummer": "371190113",
+                    "eersteHandelsnaam": "FruitVerkopers",
+                    "handelsnamen": [
+                        "FruitVerkopers"
+                    ],
+                    "eigenaar": {
+                        "persoon": {
+                            "identificatie": "371190113",
+                            "omschrijving": "string",
+                            "volledigeNaam": "John Doe",
+                            "type": "ingeschrevenpersoon",
+                            "bezoekadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "6922KZ",
+                                "woonplaats": "Duiven",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "1234AB",
+                                "regio": "Demodam",
+                                "land": "Nederland"
+                            },
+                            "postadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "1234AA",
+                                "woonplaats": "Nootdorp",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string",
+                                "postbusnummer": 1021,
+                                "adresregel1": "Postbus 1021",
+                                "adresregel2": "1234AA Nootdorp"
+                            }
+                        },
+                        "bestuurders": [
+                            {
+                                "identificatie": "371190113",
+                                "omschrijving": "string",
+                                "volledigeNaam": "John Doe 2",
+                                "type": "ingeschrevenpersoon",
+                                "bezoekadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "6922KZ",
+                                    "woonplaats": "Duiven",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string"
+                                },
+                                "postadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "1234AA",
+                                    "woonplaats": "Nootdorp",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string",
+                                    "postbusnummer": 1021,
+                                    "adresregel1": "Postbus 1021",
+                                    "adresregel2": "1234AA Nootdorp"
+                                },
+                                "datumAanvang": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "datumEinde": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "functietitel": "Voorzitter",
+                                "indicatieStatutair": true,
+                                "functie": "bestuurder",
+                                "bevoegdheid": "zelfstandig",
+                                "indicatieBevoegdMetAnderePersonen": true
+                            }
+                        ],
+                        "rechtsvorm": "besloten_vennootschap",
+                        "gemachtigde": [
+                            {
+                                "identificatie": "string",
+                                "omschrijving": "string",
+                                "volledigeNaam": "string",
+                                "type": "ingeschrevenpersoon",
+                                "bezoekadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "6922KZ",
+                                    "woonplaats": "Duiven",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string"
+                                },
+                                "postadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "1234AA",
+                                    "woonplaats": "Nootdorp",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string",
+                                    "postbusnummer": 1021,
+                                    "adresregel1": "Postbus 1021",
+                                    "adresregel2": "1234AA Nootdorp"
+                                },
+                                "datumAanvang": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "datumEinde": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "functietitel": "Voorzitter",
+                                "indicatieStatutair": true,
+                                "functie": "gevolmachtigde",
+                                "volmacht": {
+                                    "indicatieStatutair": true,
+                                    "typeVolmacht": "beperkt",
+                                    "beperkingInGeld": {
+                                        "som": 0,
+                                        "valuta": "string"
+                                    },
+                                    "indicatieBevoegdOpgaveHandelsregister": true,
+                                    "indicatieHeeftOverigeVolmacht": true,
+                                    "omschrijvingOverigeVolmacht": "string",
+                                    "beperkingInHandeling": [
+                                        {
+                                            "beperkingInGeld": {
+                                                "som": 0,
+                                                "valuta": "string"
+                                            },
+                                            "soortHandeling": "afsluiten_financieringscontracten"
+                                        }
+                                    ],
+                                    "vestigingNummers": [
+                                        "string"
+                                    ]
+                                }
+                            }
+                        ],
+                        "functionarissenByzondereRechtstoestand": [
+                            {
+                                "identificatie": "string",
+                                "omschrijving": "string",
+                                "volledigeNaam": "string",
+                                "type": "ingeschrevenpersoon",
+                                "bezoekadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "6922KZ",
+                                    "woonplaats": "Duiven",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string"
+                                },
+                                "postadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "1234AA",
+                                    "woonplaats": "Nootdorp",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string",
+                                    "postbusnummer": 1021,
+                                    "adresregel1": "Postbus 1021",
+                                    "adresregel2": "1234AA Nootdorp"
+                                },
+                                "datumAanvang": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "datumEinde": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "functietitel": "Voorzitter",
+                                "indicatieStatutair": true,
+                                "functie": "bestuurder",
+                                "bevoegdheid": "bevoegd"
+                            }
+                        ],
+                        "aansprakelijken": [
+                            {
+                                "identificatie": "string",
+                                "omschrijving": "string",
+                                "volledigeNaam": "string",
+                                "type": "ingeschrevenpersoon",
+                                "bezoekadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "6922KZ",
+                                    "woonplaats": "Duiven",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string"
+                                },
+                                "postadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "1234AA",
+                                    "woonplaats": "Nootdorp",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string",
+                                    "postbusnummer": 1021,
+                                    "adresregel1": "Postbus 1021",
+                                    "adresregel2": "1234AA Nootdorp"
+                                },
+                                "datumAanvang": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "datumEinde": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "functietitel": "Voorzitter",
+                                "indicatieStatutair": true,
+                                "functie": "medeeigenaar",
+                                "bevoegdheid": "onbeperkt",
+                                "beperkingInEuros": {
+                                    "som": 0,
+                                    "valuta": "string"
+                                },
+                                "indicatieOverigeBeperking": true,
+                                "indicatieHandlichtingVerleend": true
+                            }
+                        ],
+                        "publiekrechtelijkeFunctionarissen": [
+                            {
+                                "identificatie": "string",
+                                "omschrijving": "string",
+                                "volledigeNaam": "string",
+                                "type": "ingeschrevenpersoon",
+                                "bezoekadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "6922KZ",
+                                    "woonplaats": "Duiven",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string"
+                                },
+                                "postadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "1234AA",
+                                    "woonplaats": "Nootdorp",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string",
+                                    "postbusnummer": 1021,
+                                    "adresregel1": "Postbus 1021",
+                                    "adresregel2": "1234AA Nootdorp"
+                                },
+                                "datumAanvang": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "datumEinde": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "functietitel": "Voorzitter",
+                                "indicatieStatutair": true,
+                                "functie": "curator",
+                                "bevoegdheid": "zelfstandig"
+                            }
+                        ],
+                        "overigeFunctionarissen": [
+                            {
+                                "identificatie": "string",
+                                "omschrijving": "string",
+                                "volledigeNaam": "string",
+                                "type": "ingeschrevenpersoon",
+                                "bezoekadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "6922KZ",
+                                    "woonplaats": "Duiven",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string"
+                                },
+                                "postadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "1234AA",
+                                    "woonplaats": "Nootdorp",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string",
+                                    "postbusnummer": 1021,
+                                    "adresregel1": "Postbus 1021",
+                                    "adresregel2": "1234AA Nootdorp"
+                                },
+                                "datumAanvang": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "datumEinde": {
+                                    "dag": 3,
+                                    "datum": "1989-05-03",
+                                    "jaar": 1989,
+                                    "maand": 5
+                                },
+                                "functietitel": "Voorzitter",
+                                "indicatieStatutair": true,
+                                "functie": "bewaarder_boeken_en_bescheiden",
+                                "bevoegdheidFunctionaris": "zelfstandig",
+                                "bevoegdheidVereffenaar": "bevoegd",
+                                "geplaatstKapitaal": {
+                                    "bedrag": {
+                                        "som": 0,
+                                        "valuta": "string"
+                                    },
+                                    "aandelen": {
+                                        "aantal": 0,
+                                        "soort": "string",
+                                        "waarde": {
+                                            "som": 0,
+                                            "valuta": "string"
+                                        }
+                                    }
+                                },
+                                "gestortKapitaal": {
+                                    "bedrag": {
+                                        "som": 0,
+                                        "valuta": "string"
+                                    },
+                                    "aandelen": {
+                                        "aantal": 0,
+                                        "soort": "string",
+                                        "waarde": {
+                                            "som": 0,
+                                            "valuta": "string"
+                                        }
+                                    }
+                                },
+                                "indicatieAfwijkendAansprakelijkheidsbeding": true
+                            }
+                        ]
+                    },
+                    "bezoekadres": {
+                        "nummeraanduidingidentificatie": "string",
+                        "adresseerbaarobjectidentificatie": "string",
+                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                        "huisnummer": 1,
+                        "huisletter": "A",
+                        "huisnummertoevoeging": "bis",
+                        "postcode": "6922KZ",
+                        "woonplaats": "Duiven",
+                        "straatHuisnummer": "string",
+                        "postcodeWoonplaats": "string",
+                        "regio": "string",
+                        "land": "string"
+                    },
+                    "datumAanvang": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "datumEinde": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "postadres": {
+                        "nummeraanduidingidentificatie": "string",
+                        "adresseerbaarobjectidentificatie": "string",
+                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                        "huisnummer": 1,
+                        "huisletter": "A",
+                        "huisnummertoevoeging": "bis",
+                        "postcode": "1234AA",
+                        "woonplaats": "Nootdorp",
+                        "straatHuisnummer": "string",
+                        "postcodeWoonplaats": "string",
+                        "regio": "string",
+                        "land": "string",
+                        "postbusnummer": 1021,
+                        "adresregel1": "Postbus 1021",
+                        "adresregel2": "1234AA Nootdorp"
+                    },
+                    "domein": "string",
+                    "telefoonnummer": "string",
+                    "faxnummer": "string",
+                    "hoofdvestigingNummer": "string",
+                    "vestigingNummers": [
+                        "string"
+                    ]
+                }
+            }
+        ],
+        "HandelsregisterPersoon": [
+            {
+                "properties": {
+                    "identificatie": "string",
+                    "naam": "string",
+                    "adres": {
+                        "nummeraanduidingidentificatie": "string",
+                        "adresseerbaarobjectidentificatie": "string",
+                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                        "huisnummer": 1,
+                        "huisletter": "A",
+                        "huisnummertoevoeging": "bis",
+                        "postcode": "6922KZ",
+                        "woonplaats": "Duiven",
+                        "straatHuisnummer": "string",
+                        "postcodeWoonplaats": "string",
+                        "regio": "string",
+                        "land": "string"
+                    },
+                    "geboorte": {
+                        "datum": {
+                            "dag": 3,
+                            "datum": "1989-05-03",
+                            "jaar": 1989,
+                            "maand": 5
+                        },
+                        "land": {
+                            "code": "6030",
+                            "omschrijving": "Nederland"
+                        },
+                        "plaats": {
+                            "code": "6030",
+                            "omschrijving": "Nederland"
+                        },
+                        "inOnderzoek": {
+                            "datum": true,
+                            "land": true,
+                            "plaats": true,
+                            "datumIngangOnderzoek": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            }
+                        }
+                    },
+                    "overlijden": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "kvknummers": [
+                        "string"
+                    ]
+                }
+            }
+        ],
+        "NietNatuurlijkPersoon": [
+            {
+                "properties": {
+                    "rsin": "495698994",
+                    "nietNatuurlijkPersoonType": "buitenlandse_vennootschap",
+                    "datumUitschrijving": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "bezoekadres": {
+                        "nummeraanduidingidentificatie": "string",
+                        "adresseerbaarobjectidentificatie": "string",
+                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                        "huisnummer": 1,
+                        "huisletter": "A",
+                        "huisnummertoevoeging": "bis",
+                        "postcode": "1234AA",
+                        "woonplaats": "Nootdorp",
+                        "straatHuisnummer": "string",
+                        "postcodeWoonplaats": "string",
+                        "regio": "string",
+                        "land": "string",
+                        "postbusnummer": 1021,
+                        "adresregel1": "Postbus 1021",
+                        "adresregel2": "1234AA Nootdorp"
+                    },
+                    "postadres": {
+                        "nummeraanduidingidentificatie": "string",
+                        "adresseerbaarobjectidentificatie": "string",
+                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                        "huisnummer": 1,
+                        "huisletter": "A",
+                        "huisnummertoevoeging": "bis",
+                        "postcode": "1234AA",
+                        "woonplaats": "Nootdorp",
+                        "straatHuisnummer": "string",
+                        "postcodeWoonplaats": "string",
+                        "regio": "string",
+                        "land": "string",
+                        "postbusnummer": 1021,
+                        "adresregel1": "Postbus 1021",
+                        "adresregel2": "1234AA Nootdorp"
+                    },
+                    "naam": "John Doe",
+                    "ookGenoemd": "John Doe",
+                    "rechtsvorm": "besloten_vennootschap",
+                    "aantalCommanditaireVennoten": 0,
+                    "commanditairKapitaal": {
+                        "soort": "geld",
+                        "bedrag": {
+                            "som": 0,
+                            "valuta": "string"
+                        }
+                    },
+                    "indicatieHeeftOnbepaaldeDuur": true,
+                    "eindeDuur": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "doelRechtsvorm": "besloten_vennootschap",
+                    "statutaireZetel": "string",
+                    "aanvangStatutaireZetel": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "datumOprichting": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "datumAkteOprichting": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "datumAkteStatutenWijziging": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "bedragKostenOprichting": {
+                        "som": 0,
+                        "valuta": "string"
+                    },
+                    "datumEersteInschrijvingHandelsregister": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "ingangStatuten": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "rechtsbevoegdheidVereniging": "beperkt",
+                    "publiekrechtelijkeRechtsvorm": "de_staat_ministerie",
+                    "structuur": "gewoon",
+                    "overigePrivaatrechtelijkeRechtsvorm": "hofje",
+                    "nieuwGemeldeRechtsvorm": "string",
+                    "indicatieBeleggingsMijMetVeranderlijkKapitaal": true,
+                    "stelselInrichting": "monistisch",
+                    "maatschappelijkKapitaal": {
+                        "bedrag": {
+                            "som": 0,
+                            "valuta": "string"
+                        },
+                        "aandelen": {
+                            "aantal": 0,
+                            "soort": "string",
+                            "waarde": {
+                                "som": 0,
+                                "valuta": "string"
+                            }
+                        }
+                    },
+                    "geplaatstKapitaal": {
+                        "bedrag": {
+                            "som": 0,
+                            "valuta": "string"
+                        },
+                        "aandelen": {
+                            "aantal": 0,
+                            "soort": "string",
+                            "waarde": {
+                                "som": 0,
+                                "valuta": "string"
+                            }
+                        }
+                    },
+                    "gestortKapitaal": {
+                        "bedrag": {
+                            "som": 0,
+                            "valuta": "string"
+                        },
+                        "aandelen": {
+                            "aantal": 0,
+                            "soort": "string",
+                            "waarde": {
+                                "som": 0,
+                                "valuta": "string"
+                            }
+                        }
+                    },
+                    "activiteitenGestaaktPer": {
+                        "dag": 3,
+                        "datum": "1989-05-03",
+                        "jaar": 1989,
+                        "maand": 5
+                    },
+                    "rechtspersoonsgegevensBuitenland": {
+                        "naam": "string",
+                        "plaats": "string",
+                        "land": "string",
+                        "inschrijfnummer": "string"
+                    },
+                    "landVanOprichting": "string",
+                    "landVanVestiging": "string",
+                    "domein": "string",
+                    "telefoonnummer": "string",
+                    "faxnummer": "string",
+                    "bestuurders": [
+                        {
+                            "identificatie": "string",
+                            "omschrijving": "string",
+                            "volledigeNaam": "string",
+                            "type": "ingeschrevenpersoon",
+                            "bezoekadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "6922KZ",
+                                "woonplaats": "Duiven",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string"
+                            },
+                            "postadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "1234AA",
+                                "woonplaats": "Nootdorp",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string",
+                                "postbusnummer": 1021,
+                                "adresregel1": "Postbus 1021",
+                                "adresregel2": "1234AA Nootdorp"
+                            },
+                            "datumAanvang": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "datumEinde": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "functietitel": "Voorzitter",
+                            "indicatieStatutair": true,
+                            "functie": "bestuurder",
+                            "bevoegdheid": "zelfstandig",
+                            "indicatieBevoegdMetAnderePersonen": true,
+                            "vertegenwoordiger": {
+                                "identificatie": "string",
+                                "omschrijving": "string",
+                                "volledigeNaam": "string",
+                                "type": "ingeschrevenpersoon",
+                                "bezoekadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "6922KZ",
+                                    "woonplaats": "Duiven",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string"
+                                },
+                                "postadres": {
+                                    "nummeraanduidingidentificatie": "string",
+                                    "adresseerbaarobjectidentificatie": "string",
+                                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                    "huisnummer": 1,
+                                    "huisletter": "A",
+                                    "huisnummertoevoeging": "bis",
+                                    "postcode": "1234AA",
+                                    "woonplaats": "Nootdorp",
+                                    "straatHuisnummer": "string",
+                                    "postcodeWoonplaats": "string",
+                                    "regio": "string",
+                                    "land": "string",
+                                    "postbusnummer": 1021,
+                                    "adresregel1": "Postbus 1021",
+                                    "adresregel2": "1234AA Nootdorp"
+                                }
+                            }
+                        }
+                    ],
+                    "gemachtigde": [
+                        {
+                            "identificatie": "string",
+                            "omschrijving": "string",
+                            "volledigeNaam": "string",
+                            "type": "ingeschrevenpersoon",
+                            "bezoekadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "6922KZ",
+                                "woonplaats": "Duiven",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string"
+                            },
+                            "postadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "1234AA",
+                                "woonplaats": "Nootdorp",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string",
+                                "postbusnummer": 1021,
+                                "adresregel1": "Postbus 1021",
+                                "adresregel2": "1234AA Nootdorp"
+                            },
+                            "datumAanvang": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "datumEinde": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "functietitel": "Voorzitter",
+                            "indicatieStatutair": true,
+                            "functie": "gevolmachtigde",
+                            "volmacht": {
+                                "indicatieStatutair": true,
+                                "typeVolmacht": "beperkt",
+                                "beperkingInGeld": {
+                                    "som": 0,
+                                    "valuta": "string"
+                                },
+                                "indicatieBevoegdOpgaveHandelsregister": true,
+                                "indicatieHeeftOverigeVolmacht": true,
+                                "omschrijvingOverigeVolmacht": "string",
+                                "beperkingInHandeling": [
+                                    {
+                                        "beperkingInGeld": {
+                                            "som": 0,
+                                            "valuta": "string"
+                                        },
+                                        "soortHandeling": "afsluiten_financieringscontracten"
+                                    }
+                                ],
+                                "vestigingNummers": [
+                                    "string"
+                                ]
+                            }
+                        }
+                    ],
+                    "functionarissenByzondereRechtstoestand": [
+                        {
+                            "identificatie": "string",
+                            "omschrijving": "string",
+                            "volledigeNaam": "string",
+                            "type": "ingeschrevenpersoon",
+                            "bezoekadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "6922KZ",
+                                "woonplaats": "Duiven",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string"
+                            },
+                            "postadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "1234AA",
+                                "woonplaats": "Nootdorp",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string",
+                                "postbusnummer": 1021,
+                                "adresregel1": "Postbus 1021",
+                                "adresregel2": "1234AA Nootdorp"
+                            },
+                            "datumAanvang": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "datumEinde": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "functietitel": "Voorzitter",
+                            "indicatieStatutair": true,
+                            "functie": "bestuurder",
+                            "bevoegdheid": "bevoegd"
+                        }
+                    ],
+                    "aansprakelijken": [
+                        {
+                            "identificatie": "string",
+                            "omschrijving": "string",
+                            "volledigeNaam": "string",
+                            "type": "ingeschrevenpersoon",
+                            "bezoekadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "6922KZ",
+                                "woonplaats": "Duiven",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string"
+                            },
+                            "postadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "1234AA",
+                                "woonplaats": "Nootdorp",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string",
+                                "postbusnummer": 1021,
+                                "adresregel1": "Postbus 1021",
+                                "adresregel2": "1234AA Nootdorp"
+                            },
+                            "datumAanvang": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "datumEinde": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "functietitel": "Voorzitter",
+                            "indicatieStatutair": true,
+                            "functie": "medeeigenaar",
+                            "bevoegdheid": "onbeperkt",
+                            "beperkingInEuros": {
+                                "som": 0,
+                                "valuta": "string"
+                            },
+                            "indicatieOverigeBeperking": true,
+                            "indicatieHandlichtingVerleend": true
+                        }
+                    ],
+                    "publiekrechtelijkeFunctionarissen": [
+                        {
+                            "identificatie": "string",
+                            "omschrijving": "string",
+                            "volledigeNaam": "string",
+                            "type": "ingeschrevenpersoon",
+                            "bezoekadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "6922KZ",
+                                "woonplaats": "Duiven",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string"
+                            },
+                            "postadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "1234AA",
+                                "woonplaats": "Nootdorp",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string",
+                                "postbusnummer": 1021,
+                                "adresregel1": "Postbus 1021",
+                                "adresregel2": "1234AA Nootdorp"
+                            },
+                            "datumAanvang": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "datumEinde": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "functietitel": "Voorzitter",
+                            "indicatieStatutair": true,
+                            "functie": "curator",
+                            "bevoegdheid": "zelfstandig"
+                        }
+                    ],
+                    "overigeFunctionarissen": [
+                        {
+                            "identificatie": "string",
+                            "omschrijving": "string",
+                            "volledigeNaam": "string",
+                            "type": "ingeschrevenpersoon",
+                            "bezoekadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "6922KZ",
+                                "woonplaats": "Duiven",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string"
+                            },
+                            "postadres": {
+                                "nummeraanduidingidentificatie": "string",
+                                "adresseerbaarobjectidentificatie": "string",
+                                "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                                "huisnummer": 1,
+                                "huisletter": "A",
+                                "huisnummertoevoeging": "bis",
+                                "postcode": "1234AA",
+                                "woonplaats": "Nootdorp",
+                                "straatHuisnummer": "string",
+                                "postcodeWoonplaats": "string",
+                                "regio": "string",
+                                "land": "string",
+                                "postbusnummer": 1021,
+                                "adresregel1": "Postbus 1021",
+                                "adresregel2": "1234AA Nootdorp"
+                            },
+                            "datumAanvang": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "datumEinde": {
+                                "dag": 3,
+                                "datum": "1989-05-03",
+                                "jaar": 1989,
+                                "maand": 5
+                            },
+                            "functietitel": "Voorzitter",
+                            "indicatieStatutair": true,
+                            "functie": "bewaarder_boeken_en_bescheiden",
+                            "bevoegdheidFunctionaris": "zelfstandig",
+                            "bevoegdheidVereffenaar": "bevoegd",
+                            "geplaatstKapitaal": {
+                                "bedrag": {
+                                    "som": 0,
+                                    "valuta": "string"
+                                },
+                                "aandelen": {
+                                    "aantal": 0,
+                                    "soort": "string",
+                                    "waarde": {
+                                        "som": 0,
+                                        "valuta": "string"
+                                    }
+                                }
+                            },
+                            "gestortKapitaal": {
+                                "bedrag": {
+                                    "som": 0,
+                                    "valuta": "string"
+                                },
+                                "aandelen": {
+                                    "aantal": 0,
+                                    "soort": "string",
+                                    "waarde": {
+                                        "som": 0,
+                                        "valuta": "string"
+                                    }
+                                }
+                            },
+                            "indicatieAfwijkendAansprakelijkheidsbeding": true
+                        }
+                    ],
+                    "kvknummers": [
+                        "string"
+                    ],
+                    "isDochterVan": [
+                        "string"
+                    ],
+                    "isMoederVan": [
+                        "string"
+                    ]
+                }
+            }
+        ],
+        "Vestiging": {
+            "properties": {
+                "vestigingsnummer": "string",
+                "eersteHandelsnaam": "string",
+                "handelsnamen": [
+                    "string"
+                ],
+                "bezoekadres": {
+                    "nummeraanduidingidentificatie": "string",
+                    "adresseerbaarobjectidentificatie": "string",
+                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                    "huisnummer": 1,
+                    "huisletter": "A",
+                    "huisnummertoevoeging": "bis",
+                    "postcode": "6922KZ",
+                    "woonplaats": "Duiven",
+                    "straatHuisnummer": "string",
+                    "postcodeWoonplaats": "string",
+                    "regio": "string",
+                    "land": "string"
+                },
+                "postadres": {
+                    "nummeraanduidingidentificatie": "string",
+                    "adresseerbaarobjectidentificatie": "string",
+                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                    "huisnummer": 1,
+                    "huisletter": "A",
+                    "huisnummertoevoeging": "bis",
+                    "postcode": "1234AA",
+                    "woonplaats": "Nootdorp",
+                    "straatHuisnummer": "string",
+                    "postcodeWoonplaats": "string",
+                    "regio": "string",
+                    "land": "string",
+                    "postbusnummer": 1021,
+                    "adresregel1": "Postbus 1021",
+                    "adresregel2": "1234AA Nootdorp"
+                },
+                "emailAdres": "string",
+                "domein": "string",
+                "telefoonnummer": "string",
+                "faxnummer": "string",
+                "kvknummer": "string"
+            }
+        }
+    }
+}
