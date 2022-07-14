@@ -18,7 +18,7 @@
                             "indicatieImporteert": true
                         }
                     ],
-                    "kvknummer": "371190113",
+                    "kvknummer": "357205959",
                     "eersteHandelsnaam": "FruitVerkopers",
                     "handelsnamen": [
                         "FruitVerkopers"
@@ -500,7 +500,7 @@
                     "faxnummer": "string",
                     "hoofdvestigingNummer": "string",
                     "vestigingNummers": [
-                        "string"
+                        "357205959"
                     ]
                 }
             }
@@ -508,7 +508,7 @@
         "HandelsregisterPersoon": [
             {
                 "properties": {
-                    "identificatie": "string",
+                    "identificatie": "094910959",
                     "naam": "string",
                     "adres": {
                         "nummeraanduidingidentificatie": "string",
@@ -558,7 +558,7 @@
                         "maand": 5
                     },
                     "kvknummers": [
-                        "string"
+                        "094910959"
                     ]
                 }
             }
@@ -566,7 +566,7 @@
         "NietNatuurlijkPersoon": [
             {
                 "properties": {
-                    "rsin": "495698994",
+                    "rsin": "044814173",
                     "nietNatuurlijkPersoonType": "buitenlandse_vennootschap",
                     "datumUitschrijving": {
                         "dag": 3,
@@ -1161,7 +1161,7 @@
                         }
                     ],
                     "kvknummers": [
-                        "string"
+                        "044814173"
                     ],
                     "isDochterVan": [
                         "string"
@@ -1175,7 +1175,7 @@
         "Vestiging": [
             {
                 "properties": {
-                    "vestigingsnummer": "string",
+                    "vestigingsnummer": "154721475",
                     "eersteHandelsnaam": "string",
                     "handelsnamen": [
                         "string"
@@ -1215,7 +1215,7 @@
                     "domein": "string",
                     "telefoonnummer": "string",
                     "faxnummer": "string",
-                    "kvknummer": "string"
+                    "kvknummer": "154721475"
                 }
             }
         ]
