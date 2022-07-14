@@ -25,14 +25,14 @@ developmentStatus: beta
 description:
   nl:
     shortDescription: "HandelsRegisterBevragen"
-    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/OAS.yaml&nocors'
-    apiDocumentation: 'https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/OAS.yaml'
-    # testDataLocation: 'https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/data/data.json'
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/Haal-Centraal-HR-bevragen/develop/specificatie/genereervariant/openapi.yaml&nocors'
+    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/Haal-Centraal-HR-bevragen/develop/specificatie/genereervariant/openapi.yaml'
+    testDataLocation: 'https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/data/data.json'
   en:
     shortDescription: "HandelsRegisterBevragen"
-    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/OAS.yaml&nocors'
-    apiDocumentation: 'https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/OAS.yaml'
-    # testDataLocation: 'https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/data/data.json'
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/Haal-Centraal-HR-bevragen/develop/specificatie/genereervariant/openapi.yaml&nocors'
+    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/Haal-Centraal-HR-bevragen/develop/specificatie/genereervariant/openapi.yaml'
+    testDataLocation: 'https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/data/data.json'
 
 dependsOn:
   open:
