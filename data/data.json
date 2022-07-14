@@ -1172,50 +1172,52 @@
                 }
             }
         ],
-        "Vestiging": {
-            "properties": {
-                "vestigingsnummer": "string",
-                "eersteHandelsnaam": "string",
-                "handelsnamen": [
-                    "string"
-                ],
-                "bezoekadres": {
-                    "nummeraanduidingidentificatie": "string",
-                    "adresseerbaarobjectidentificatie": "string",
-                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
-                    "huisnummer": 1,
-                    "huisletter": "A",
-                    "huisnummertoevoeging": "bis",
-                    "postcode": "6922KZ",
-                    "woonplaats": "Duiven",
-                    "straatHuisnummer": "string",
-                    "postcodeWoonplaats": "string",
-                    "regio": "string",
-                    "land": "string"
-                },
-                "postadres": {
-                    "nummeraanduidingidentificatie": "string",
-                    "adresseerbaarobjectidentificatie": "string",
-                    "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
-                    "huisnummer": 1,
-                    "huisletter": "A",
-                    "huisnummertoevoeging": "bis",
-                    "postcode": "1234AA",
-                    "woonplaats": "Nootdorp",
-                    "straatHuisnummer": "string",
-                    "postcodeWoonplaats": "string",
-                    "regio": "string",
-                    "land": "string",
-                    "postbusnummer": 1021,
-                    "adresregel1": "Postbus 1021",
-                    "adresregel2": "1234AA Nootdorp"
-                },
-                "emailAdres": "string",
-                "domein": "string",
-                "telefoonnummer": "string",
-                "faxnummer": "string",
-                "kvknummer": "string"
+        "Vestiging": [
+            {
+                "properties": {
+                    "vestigingsnummer": "string",
+                    "eersteHandelsnaam": "string",
+                    "handelsnamen": [
+                        "string"
+                    ],
+                    "bezoekadres": {
+                        "nummeraanduidingidentificatie": "string",
+                        "adresseerbaarobjectidentificatie": "string",
+                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                        "huisnummer": 1,
+                        "huisletter": "A",
+                        "huisnummertoevoeging": "bis",
+                        "postcode": "6922KZ",
+                        "woonplaats": "Duiven",
+                        "straatHuisnummer": "string",
+                        "postcodeWoonplaats": "string",
+                        "regio": "string",
+                        "land": "string"
+                    },
+                    "postadres": {
+                        "nummeraanduidingidentificatie": "string",
+                        "adresseerbaarobjectidentificatie": "string",
+                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
+                        "huisnummer": 1,
+                        "huisletter": "A",
+                        "huisnummertoevoeging": "bis",
+                        "postcode": "1234AA",
+                        "woonplaats": "Nootdorp",
+                        "straatHuisnummer": "string",
+                        "postcodeWoonplaats": "string",
+                        "regio": "string",
+                        "land": "string",
+                        "postbusnummer": 1021,
+                        "adresregel1": "Postbus 1021",
+                        "adresregel2": "1234AA Nootdorp"
+                    },
+                    "emailAdres": "string",
+                    "domein": "string",
+                    "telefoonnummer": "string",
+                    "faxnummer": "string",
+                    "kvknummer": "string"
+                }
             }
-        }
+        ]
     }
 }
