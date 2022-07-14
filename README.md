@@ -11,7 +11,7 @@ To start with creating or setting up a repository with a OpenAPI Specification s
 
 Quick links about this repository:
 
-- [API Documentation (redocly is a API documentation generator)](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/CommonGateway/HandelsRegisterBevragen/main/OAS.yaml&nocors)
+- [API Documentation (redocly is a API documentation generator)](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/Haal-Centraal-HR-bevragen/develop/specificatie/genereervariant/openapi.yaml&nocors)
 - [API Definition (yaml or json file)](https://github.com/CommonGateway/HandelsRegisterBevragen/blob/main/OAS.yaml)
 - [Public Code (file about this API and makes it searchable)](https://github.com/CommonGateway/HandelsRegisterBevragen/blob/main/publiccode.yaml)
 - [Stoplight.io (OAS editing tool)](https://conduction.stoplight.io/docs/pet-store)
