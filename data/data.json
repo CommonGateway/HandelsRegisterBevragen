@@ -1175,47 +1175,94 @@
         "Vestiging": [
             {
                 "properties": {
-                    "vestigingsnummer": "154721475",
-                    "eersteHandelsnaam": "string",
-                    "handelsnamen": [
-                        "string"
-                    ],
+                    "vestigingsnummer": "321654871234",
+                    "eersteHandelsnaam": "Slagerij het olijke varken",
                     "bezoekadres": {
-                        "nummeraanduidingidentificatie": "string",
-                        "adresseerbaarobjectidentificatie": "string",
-                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
-                        "huisnummer": 1,
-                        "huisletter": "A",
-                        "huisnummertoevoeging": "bis",
-                        "postcode": "6922KZ",
-                        "woonplaats": "Duiven",
-                        "straatHuisnummer": "string",
-                        "postcodeWoonplaats": "string",
-                        "regio": "string",
-                        "land": "string"
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 24,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "land": "Nederland"
                     },
                     "postadres": {
-                        "nummeraanduidingidentificatie": "string",
-                        "adresseerbaarobjectidentificatie": "string",
-                        "straatnaam": "Laan van de landinrichtingscommissie Duiven-Westervoort",
-                        "huisnummer": 1,
-                        "huisletter": "A",
-                        "huisnummertoevoeging": "bis",
-                        "postcode": "1234AA",
-                        "woonplaats": "Nootdorp",
-                        "straatHuisnummer": "string",
-                        "postcodeWoonplaats": "string",
-                        "regio": "string",
-                        "land": "string",
-                        "postbusnummer": 1021,
-                        "adresregel1": "Postbus 1021",
-                        "adresregel2": "1234AA Nootdorp"
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 24,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "adresregel2": "7431CL Diepenveen"
                     },
-                    "emailAdres": "string",
-                    "domein": "string",
-                    "telefoonnummer": "string",
-                    "faxnummer": "string",
-                    "kvknummer": "154721475"
+                    "emailAdres": "slager@test.nl",
+                    "telefoonnummer": "0570-123456",
+                    "kvknummer": "12345678"
+                }
+            },
+            {
+                "properties": {
+                    "vestigingsnummer": "321654871235",
+                    "eersteHandelsnaam": "Bakkerij  het gulden broodje",
+                    "bezoekadres": {
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 26,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "land": "Nederland"
+                    },
+                    "postadres": {
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 26,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "adresregel2": "7431CL Diepenveen"
+                    },
+                    "emailAdres": "bakkerij@test.nl",
+                    "telefoonnummer": "0570-123457",
+                    "kvknummer": "12345679"
+                }
+            },
+            {
+                "properties": {
+                    "vestigingsnummer": "321654871236",
+                    "eersteHandelsnaam": "Opticien van den Bril",
+                    "bezoekadres": {
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 28,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "land": "Nederland"
+                    },
+                    "postadres": {
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 28,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "adresregel2": "7431CL Diepenveen"
+                    },
+                    "emailAdres": "bril@test.nl",
+                    "telefoonnummer": "0570-123458",
+                    "kvknummer": "12345680"
+                }
+            },
+            {
+                "properties": {
+                    "vestigingsnummer": "321654871237",
+                    "eersteHandelsnaam": "Boekenwinkel leesplezier",
+                    "bezoekadres": {
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 30,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "land": "Nederland"
+                    },
+                    "postadres": {
+                        "straatnaam": "Dorpsstraat",
+                        "huisnummer": 30,
+                        "postcode": "7431CL",
+                        "woonplaats": "Diepenveen",
+                        "adresregel2": "7431CL Diepenveen"
+                    },
+                    "emailAdres": "boeken@test.nl",
+                    "telefoonnummer": "0570-123459",
+                    "kvknummer": "12345681"
                 }
             }
         ]
